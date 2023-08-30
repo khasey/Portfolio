@@ -81,14 +81,11 @@
   flex-direction: column;
 }
 .pro1 :hover{
-  color: #ffa600;
-  width: 150px;
-  height: 150px;
+  color: #ffe600;
+  width: 100px;
+  height: 100px;
   /* background-color: #191919; */
-  border-radius: 20px;
-  border: ridge 1px;
   cursor: pointer;
-  box-shadow: 0px 0px 20px 1px rgba(236, 236, 236, 0.322);
 }
 .pro3{
   display: flex;
@@ -100,11 +97,7 @@
   color: #00ffff;
   width: 150px;
   height: 150px;
-  /* background-color: #191919; */
-  border-radius: 20px;
-  border: ridge 1px;
   cursor: pointer;
-  box-shadow: 0px 0px 20px 1px rgba(236, 236, 236, 0.322);
 }
 .pro4{
   display: flex;
@@ -114,13 +107,10 @@
 }
 .pro4 :hover{
   color: #ff33e4;
-  width: 150px;
-  height: 150px;
+  width: 110px;
+  height: 110px;
   /* background-color: #191919; */
-  border-radius: 20px;
-  border: ridge 1px;
   cursor: pointer;
-  box-shadow: 0px 0px 20px 1px rgba(236, 236, 236, 0.322);
 }
 .img{
   position:fixed; 
