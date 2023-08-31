@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+.codeBlock{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #191919;
+    border-radius: 20px;
+    border: ridge 0.2px;
+    width: 50vw;
+    height: 80vh;
+}
+.return{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Silkscreen;
+    flex-direction: row;
+}
+.returning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 40px;
+}
+.up{
+    margin-top: 1%;
+    width: 100%;
+    height: 33%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.down{
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.titre{
+    font-family: Silkscreen;
+    margin-bottom: 10px;
+}
+.descrip{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: Silkscreen;
+}
+@media screen and (width < 1200px) {
+    .descrip{
+        font-size: 12px;
+    }
+    .up{
+        height: 20%;
+    }
+    .down{
+        height: 20%;
+    }
+  }
+  
+  @media screen and (width < 1000px) {
+    /* .up{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
+    .descrip{
+        font-size: 9px;
+    }
+  
+  }

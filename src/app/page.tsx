@@ -23,12 +23,16 @@ export default function Home() {
     <>
     <main className={styles.main}>
       <div className={styles.navbar}>
-        <a href="https://github.com/khasey" className="github">
+        <a href="https://github.com/khasey" className={styles.github}>
           <GitHubIcon/>
+          {/* <p>github</p> */}
         </a>
         <a href='https://www.linkedin.com/in/kevin-thierry-321695254/' className={styles.title}>KEVIN THIERRY</a>
         <Link href='/projects' className={styles.title2}>Projects</Link>
       </div>
+      <img src='moi2.png'className={styles.image}>
+
+      </img>
       <div className={styles.h}>
       
         <div className={styles.titre}>
