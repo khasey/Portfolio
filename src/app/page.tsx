@@ -11,6 +11,7 @@ import { ISourceOptions } from "tsparticles-engine";
 import { FaReact} from 'react-icons/fa';
 import { DiPython } from "react-icons/di";
 import { BiLogoGoLang } from "react-icons/bi";
+import { Tooltip } from '@mui/material';
 
 export default function Home() {
   
@@ -45,23 +46,29 @@ export default function Home() {
         </div>
        
       </div>
-      {/* <img src="moi.jpg" alt="photo" className={styles.img}
-      // style={{
-      //   position:'fixed', 
-      //   marginTop:'235px', 
-      //   opacity:'0.2',
-      //   width:'300px',
-      //    }}
-         /> */}
       <div className={styles.projet}>
             <div className={styles.pro1}>
+            
+              <a href="https://netflix-clone-4apw.vercel.app/" className="link">
+              <Tooltip title="React" placement='top'>
               <FaReact style={{fontSize:'45px'}}/>
+              </Tooltip>
+              </a>
+              
             </div>
             <div className={styles.pro3}>
+              <a href="https://github.com/khasey/goFinder" className="link2">
+              <Tooltip title="Golang" placement='top'>
               <BiLogoGoLang style={{fontSize:'80px'}}/>
+              </Tooltip>
+              </a>
             </div>
             <div className={styles.pro4}>
+              <a href="https://github.com/khasey/googlescraper" className="link3">
+              <Tooltip title="Python" placement='top'>
               <DiPython style={{fontSize:'65px'}}/>
+              </Tooltip>
+              </a>
             </div>
       </div>
 
