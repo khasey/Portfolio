@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+.container{
+    width: 250px;
+    height: 250px;
+    background-color: #191919;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: ridge 1px #1976d2;
+    margin-left: 20px;
+}
+.photo{
+    width: 100%;
+    height: 55%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: ridge 1px #1976d2;
+}
+.language{
+    width: 100%;
+    height: 10%;
+    border-bottom: ridge 1px #1976d2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.text{
+    font-family: Silkscreen;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.bottom{
+    width: 100%;
+    height: 18%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.title{
+    font-family: Silkscreen;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.description{
+    font-family: Silkscreen;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.button{
+    font-family: Silkscreen;
+    font-size: 10px;
+    border: ridge 1px;
+    margin-top: 5px;
+    gap: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.button:hover{
+    transform: translateY(-3px);
+}
+.logo{
+    font-size: 20px;
+}
+.textButton{
+    font-family: Silkscreen;
+    font-size: 10px;
+    margin-left: 10px;
+}
+@media screen and (width < 1300px) {
+    .container{
+        width: 170px;
+        height: 170px;
+    }
+    .text{
+        font-size: 9px;
+    }
+    .button{
+        width: 100px;
+        font-size: 5px;
+        gap: 5px;
+        height: 20px;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .description{
+        font-size: 9px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .textButton{
+        font-family: Silkscreen;
+        font-size: 5px;
+        margin-left: 10px;
+    }
+}
+  
+  @media screen and (width < 1000px) {
+    .container{
+        width: 150px;
+        height: 150px;
+    }
+    .text{
+        font-size: 5px;
+    }
+    .button{
+        width: 70px;
+        font-size: 3px;
+        gap: 2px;
+        height: 20px;
+    }
+    .title{
+        font-size: 8px;
+    }
+    .description{
+        font-size: 5px;
+    }
+    .logo{
+        font-size: 10px;
+    }
+    .textButton{
+        font-family: Silkscreen;
+        font-size: 4px;
+        margin-left: 10px;
+    }
+}
